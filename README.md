@@ -1,5 +1,8 @@
 # Polideportivo
 
+Todos los datos (reseervas) se introduciran en una BD mediante peticiones PHP.
+
+
 Queremos hacer el organigrama del uso de instalaciones (en nuestro caso, instalaciones deportivas) 
 en el cual podemos registrar a los usuarios que lo utilizan en un periodo de tiempo determinado por el propio programa, 
 así como las horas de uso, la instalación que se use, quien las pide, etc.

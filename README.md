@@ -1,5 +1,4 @@
 # Polideportivo
- Proyecto muy simple con PHP para gestionar un polideportivo, para practicar un poco PHP desde cero con inputs.
 
 Queremos hacer el organigrama del uso de instalaciones (en nuestro caso, instalaciones deportivas) 
 en el cual podemos registrar a los usuarios que lo utilizan en un periodo de tiempo determinado por el propio programa, 

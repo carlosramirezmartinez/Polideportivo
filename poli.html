@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Formulario De Contacto</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+<body>
+    <div class="form">
+        <form action="guardar.php" method="POST">
+            <p>Hora de alquiler</p>
+            <label for="hora">Hora de alquiler</label>
+            <br>
+            <input type="time" name="time" min="10:00" max="22:00" value="10:00" required>
+
+            <p>Dia de alquiler</p>
+            <label for="dia">Dia de alquiler</label>
+            <br>
+            <input type="date" name="date" min="2023-01-01" max="2023-12-31" value="2023-02-12" required>
+
+            <p>Reserva</p>
+            <label for="reserva">Numero de reserva</label>
+            <br>
+            <input type="number" name="reserva" min="0" max="13" required>
+
+            <p>Nombre y apellidos</p>
+            <label for="nombre">Su nombre y apellidos del interesado</label>
+            <br>
+            <input type="text" name="nombre" placeholder="Nombre y Apellidos" required>
+
+            <p>Telefono de contacto</p>
+            <label for="telefono">Fijo o movil</label>
+            <br>
+            <input type="tel" name="telefono" pattern="[0-9]{9}" required>
+
+            <p>Correo</p>
+            <label for="correo">Direccion De Correo</label>
+            <br>
+            <input type="email" name="correo" placeholder="alguien@algo.com" value="ejemplo@gmail.com" required>
+
+            <p>Pista alquilada:
+                <p/>
+                <input type="radio" name="deportes" value="Futbol Sala 1" checked="checked"> Campo - Futbol Sala 1<br/>
+                <input type="radio" name="deportes" value="Futbol Sala 2" /> Campo - Futbol Sala 2<br/>
+                <input type="radio" name="deportes" value="Padel 1" /> Campo - Padel 1<br/>
+                <input type="radio" name="deportes" value="Padel 2" /> Campo - Padel 2<br/>
+                <input type="radio" name="deportes" value="Padel 3" /> Campo - Padel 3<br/>
+                <input type="radio" name="deportes" value="Padel 4" /> Campo - Padel 4<br/>
+                <input type="radio" name="deportes" value="Futbol 11" /> Campo - Futbol 11<br/>
+                <input type="radio" name="deportes" value="Tenis" /> Campo - Tenis<br/>
+                <input type="radio" name="deportes" value="Baloncesto" /> Pabellon - Baloncesto<br/>
+                <input type="radio" name="deportes" value="Futbol Sala Cubierto" /> Pabellon - Futbol Sala<br/>
+                <input type="radio" name="deportes" value="Balonmano" /> Pabellon - Balonmano<br/>
+
+                <br>
+                <br>
+                <br>
+                <label for="mensaje">Opinion acerca de nuestras instalaciones:</label>
+                <br>
+                <textarea name="mensaje" value="Ninguna" required></textarea>
+                <br>
+                <br>
+                <input type="submit" value="Enviar">
+                <br>
+                <br>
+                <input type="reset" value="Borrar todo">
+                <br>
+                <br>
+        </form>
+    </div>
+</body>
+
+</html>

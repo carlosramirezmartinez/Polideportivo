@@ -1,6 +1,6 @@
 # Polideportivo
 
-Todos los datos (reseervas) se introduciran en una BD mediante peticiones PHP.
+Todos los datos (reservas) se introduciran en una BD mediante peticiones PHP.
 
 
 Queremos hacer el organigrama del uso de instalaciones (en nuestro caso, instalaciones deportivas) 
